@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Core">
+      <UniqueIdentifier>{94d0aa1d-9db5-4ec4-889f-d3d8e5f78ce7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\01. Window">
+      <UniqueIdentifier>{86298a36-3880-4a10-8af3-c998df1811cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Core\02. Device">
+      <UniqueIdentifier>{5fcd19b0-fcab-4e8a-aa63-72a3e4b48bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resources">
+      <UniqueIdentifier>{5e5ddcca-eded-422e-981f-1d463199748f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Resources\01. Mesh">
+      <UniqueIdentifier>{e0f3a300-cbd9-4b36-839f-650cf1469a93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering">
+      <UniqueIdentifier>{83a56542-f1fe-4116-a4b0-518f21c3389a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering\01. Shader">
+      <UniqueIdentifier>{9066f8a0-5754-4510-a860-81473dac8d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Rendering\01. Shader\01. FX">
+      <UniqueIdentifier>{1ad39b5f-6e40-4e35-9e9c-553037229a24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dx11Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Object.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Core.h">
+      <Filter>01. Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Macro.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Flag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dx11Types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Window.h">
+      <Filter>01. Core\01. Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Dx11Device.h">
+      <Filter>01. Core\02. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11ResourcesManager.h">
+      <Filter>02. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Resource.h">
+      <Filter>02. Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\Dx11Mesh.h">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11ShaderManager.h">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Rendering\Dx11Shader.h">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dx11Object.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Dx11Core.cpp">
+      <Filter>01. Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Window.cpp">
+      <Filter>01. Core\01. Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Dx11Device.cpp">
+      <Filter>01. Core\02. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Resource.cpp">
+      <Filter>02. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11ResourcesManager.cpp">
+      <Filter>02. Resources</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources\Dx11Mesh.cpp">
+      <Filter>02. Resources\01. Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11ShaderManager.cpp">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Rendering\Dx11Shader.cpp">
+      <Filter>03. Rendering\01. Shader</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Default.fx">
+      <Filter>03. Rendering\01. Shader\01. FX</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
